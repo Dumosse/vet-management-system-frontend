@@ -1,0 +1,63 @@
+.SignUp {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.SignUp .message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.SignUp .FormContainer {
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.SignUp .FormContainer .header {
+    padding: 0.7rem 1rem;
+    background-color: #d1d1d1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.SignUp .FormContainer .form {
+    min-width: 600px;
+}
+
+.SignUp .FormContainer .form .Row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.SignUp .FormContainer .form button {
+    width: 100%;
+}
+
+.SignUp .FormContainer .form p {
+    width: 100%;
+    text-align: center;
+}
+
+.SignUp .FormContainer .form p span {
+    color: rgb(58, 179, 253);
+}
